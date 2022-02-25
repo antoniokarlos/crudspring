@@ -1,0 +1,8 @@
+
+spring:
+  server:
+    port:8085
+  data:
+    mongodb:
+      uri: mongodb://root:rootpassword@localhost:27017/usuarios?authSource=admin
+      container_name: mongo-server
